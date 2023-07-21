@@ -1,3 +1,4 @@
+using HackChatbotApi.Data;
 using HackChatbotApi.Infrastructure;
 using HackChatbotApi.Services;
 
@@ -12,6 +13,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IOpenAiConnector, OpenAiConnector>();
 builder.Services.AddTransient<IQuestionService, QuestionService>();
+builder.Services.AddTransient<IDataContext, DataContext>();
 
 var app = builder.Build();
 
