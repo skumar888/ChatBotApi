@@ -4,15 +4,16 @@ namespace HackChatbotApi.Infrastructure;
 
 public interface IOpenAiConnector
 {
-	public OpenAIAPI OpenAIAPI { get; set; }
-	public void Connect();
+    public OpenAIAPI OpenAIAPI { get; set; }
 }
 public class OpenAiConnector : IOpenAiConnector
 {
-	public OpenAIAPI OpenAIAPI { get; set; }
+    public OpenAIAPI OpenAIAPI { get; set; }
+    private readonly IConfiguration _config;
 
-	public void Connect()
-	{
-		OpenAIAPI = new OpenAIAPI(new APIAuthentication(Environment.GetEnvironmentVariable("OpenAIKey")));
-	}
+    public OpenAiConnector(IConfiguration config)
+    {
+        _config = config;
+        OpenAIAPI = new OpenAIAPI(new APIAuthentication(_config["OpenAIKey"]));
+    }
 }

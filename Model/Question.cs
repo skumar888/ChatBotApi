@@ -6,5 +6,5 @@ public class QuestionRequest
 {
     [JsonRequired]
     [JsonProperty("question")]
-    public string Question;
+    public String Question { get; set; }
 }
