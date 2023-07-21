@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shubham.kumar\\source\\repos\\HackChatbotApi\\HackChatbotApi.csproj": {}
+    "C:\\CodeBase\\Hackathon\\ChatBot\\HackChatbotApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shubham.kumar\\source\\repos\\HackChatbotApi\\HackChatbotApi.csproj": {
+    "C:\\CodeBase\\Hackathon\\ChatBot\\HackChatbotApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shubham.kumar\\source\\repos\\HackChatbotApi\\HackChatbotApi.csproj",
+        "projectUniqueName": "C:\\CodeBase\\Hackathon\\ChatBot\\HackChatbotApi.csproj",
         "projectName": "HackChatbotApi",
-        "projectPath": "C:\\Users\\shubham.kumar\\source\\repos\\HackChatbotApi\\HackChatbotApi.csproj",
+        "projectPath": "C:\\CodeBase\\Hackathon\\ChatBot\\HackChatbotApi.csproj",
         "packagesPath": "C:\\Users\\shubham.kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shubham.kumar\\source\\repos\\HackChatbotApi\\obj\\",
+        "outputPath": "C:\\CodeBase\\Hackathon\\ChatBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shubham.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
